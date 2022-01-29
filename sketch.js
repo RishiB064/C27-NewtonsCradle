@@ -68,11 +68,6 @@ function mouseDragged()
 
 { 
 	Matter.Body.setPosition(bobObject1.body,{x:mouseX,y:mouseY});
-	Matter.Body.setPosition(bobObject2.body,{x:mouseX,y:mouseY});
-	Matter.Body.setPosition(bobObject3.body,{x:mouseX,y:mouseY});
-	Matter.Body.setPosition(bobObject4.body,{x:mouseX,y:mouseY});
-	Matter.Body.setPosition(bobObject5.body,{x:mouseX,y:mouseY}); 
-	
 }
 
 
